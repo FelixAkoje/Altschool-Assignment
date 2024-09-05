@@ -1,0 +1,168 @@
+body {
+    background-color: transparent;
+    color: rgb(15, 15, 15);
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+h4{
+    color: rgb(133, 136, 141);
+    margin-bottom: 25px;
+}
+
+.Container {
+    display: flex;
+    
+
+}
+
+.graphic-section {
+    width: 45%;
+    margin-left: 40px;
+    
+  
+}
+
+.img-div {
+    display: flex;            
+    justify-content: center;  
+    align-items: center;      
+    height: 60vh;
+    margin-right: 20px; 
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+  
+  
+    
+    
+    
+
+
+.laptop-img {
+    max-width: 100%;          
+    height: auto; 
+
+
+
+    
+    
+    
+}
+
+.twitter,
+.facebook,
+.Linkedln,
+.instagram {
+     height: 20px;
+     border-radius: 10px;
+     margin-right: 8px;
+     margin-bottom: 12px;
+        
+    
+}
+
+.img-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-section {
+    width: 55%;
+    margin-right: 40px;
+}
+
+.already {
+    text-align: right;
+}
+
+
+.form-row {
+    display: flex;
+    
+
+  
+
+}
+
+.fname-div,
+.Lname-div,
+.gender-div,
+.dob-div,
+.email-div,
+.number-div,
+.country-div,
+.state-div,
+.password-div,
+.confirm-div {
+    width: 100%
+
+}
+
+
+#first-name {
+    padding: 16px 24px 16px 10px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    width: 90%;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+#last-name {
+    padding: 16px 24px 16px 10px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#gender,
+#email,
+#country,
+#password {
+    padding: 16px 24px 16px 10px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    width: 90%;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#dob,
+#number,
+#state,
+#confirm-p {
+    padding: 16px 24px 16px 10px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#about-us {
+    width: 100%;
+    padding: 16px 0px;
+    border: none;
+    border-radius: 6px;
+}
+
+.submit {
+    width: 100%;
+    background: rgb(106, 111, 245);
+    color: rgb(250, 250, 250);
+    padding: 16px 0px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+
